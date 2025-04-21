@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>form2</title>
+    </head>
+
+    <body>
+        <form>
+            <label for="Address">Address:</label>
+            <input type="text" name="Address" id="Address" placeholder="Address" size="30px" maxlength="100">
+            <br/>
+            <label for="Address">Postcode:<Postcode:</label>
+            <input type="Postcode" name="Postcode" id="Postcode" placeholder="Postcode" size="30px" maxlength="100">
+            <br/>
+            <label for="city">City:</label>
+            <input type="text" name="City" id="City" placeholder="City" size="30px" maxlength="100">
+            <br/>
+            <label for="Mobile number">Mobile number:</label>
+            <input type="text" name="Mobile number" placeholder="Mobile number" size="30px" maxlength="12"
+            <br/>
+            <p>Chosse your shipping method :</p>
+            <select name="shipping" id="shipping">
+                <option value="Free super saver shipping">Free super saver shipping</option>
+                <option value="Two days shipping">Two-days shipping</option>
+                <option value="One day shipping">One-day shipping</option>
+                <option value="Today shipping">Today shipping</option>
+             </select>
+
+            <p>Chosse your payment method :</p>
+            <label>Paypal<input type="radio" name="payment" value="paypal"></label>
+            <label>Debit card<input type="radio" name="payment" value="debit card"></label>
+            <label>Credit card<input type="radio" name="payment" value="credit card"></label>
+            <label>UPI<input type="radio" name="payment" value="UPI"></label>
+            <label>Cash<input type="radio" name="Cash" value="Cash"></label>
+            <br/>
+            <label for comments>comments:</label>
+            <textarea row="5" cols="50" name="comments" id="comments"></textarea>
+            <br/>
+            <label> sign me up for email updates: <input type="chekbox" name="email updates" chacked="chacked"></label>
+            <br/>
+            <label> Securely save my payment details:
+                <input type="chekbox" name="save payment" chacked="chacked"></label>
+            <br/>
+            <input type="submit" value="submit">
+
+        </form>
+    </body>
+</html>
